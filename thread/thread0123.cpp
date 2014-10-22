@@ -13,9 +13,9 @@ int order = 0;
 constexpr int NUM = 4;
 mutex mtx;
 condition_variable cv;
-
 void print_id(int id)
 {
+	// the earlest thread sleeping the longest time
 	this_thread::sleep_for(chrono::milliseconds(4 - id));
 	for (int i = 0; i != 10; ++i)
 	{
@@ -28,7 +28,6 @@ void print_id(int id)
 		order = (order + 1) % NUM;
 		cv.notify_all();
 	}
-
 }
 
 int main()
