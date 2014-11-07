@@ -1,0 +1,10 @@
+isbn: 0-201-70353-X units sold: 4 revenue: 24.99
+isbn: 0-201-82470-1 units sold: 4 revenue: 45.39
+isbn: 0-201-88954-4 units sold: 16 revenue: 51
+isbn: 0-399-82477-1 units sold: 5 revenue: 90.78
+isbn: 0-201-78345-X units sold: 5 revenue: 45
+isbn: 0-201-70353-X units sold: 4 revenue: 24.99
+isbn: 0-201-82470-1 units sold: 4 revenue: 45.39
+isbn: 0-201-88954-4 units sold: 16 revenue: 51
+isbn: 0-399-82477-1 units sold: 5 revenue: 90.78
+isbn: 0-201-78345-X units sold: 5 revenue: 45
