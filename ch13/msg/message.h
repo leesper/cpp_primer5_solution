@@ -17,6 +17,8 @@ public:
 	Message(const Message &msg);
 	Message& operator=(const Message &msg);
 	~Message();
+	Message(Message &&msg);
+	Message& operator=(Message &&msg);
 	void save(Folder &folder);
 	void remove(Folder &folder);
 	void addFolder(Folder *f);
@@ -26,5 +28,6 @@ private:
 	set<Folder*> folders;
 	void add_to_Folders(const Message &msg);
 	void remove_from_Folders();
+	void move_Folders(Message *m);
 };
 #endif//MESSAGE_H
